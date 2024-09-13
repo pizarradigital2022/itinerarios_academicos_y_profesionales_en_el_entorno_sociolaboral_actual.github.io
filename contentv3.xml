@@ -71,7 +71,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -1677,64 +1677,6 @@
             <instance class="exe.engine.extendedfieldengine.FileField" reference="28">
              <dictionary>
               <string role="key" value="_id"></string>
-              <int value="83"></int>
-              <string role="key" value="_idevice"></string>
-              <reference key="27"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value="File Field Help"></string>
-              <string role="key" value="_name"></string>
-              <string value="File Field"></string>
-              <string role="key" value="alwaysNameTo"></string>
-              <none></none>
-              <string role="key" value="exe.engine.extendedfieldengine.FileField.persistenceVersion"></string>
-              <int value="5"></int>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="fileDescription"></string>
-              <instance class="exe.engine.field.TextField">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="84"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="28"></reference>
-                <string role="key" value="_instruc"></string>
-                <string value=""></string>
-                <string role="key" value="_name"></string>
-                <string value="Description"></string>
-                <string role="key" value="content"></string>
-                <unicode value="Plantilla de resumen guiado de itinerarios académicos y profesionales en el entorno sociolaboral actual - imprimible"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-               </dictionary>
-              </instance>
-              <string role="key" value="fileInstruc"></string>
-              <unicode value="Subir un fichero. Elimine los caracteres especiales del nombre del fichero y la ruta del archivo."></unicode>
-              <string role="key" value="fileResource"></string>
-              <instance class="exe.engine.resource.Resource" reference="31">
-               <dictionary>
-                <string role="key" value="_idevice"></string>
-                <reference key="27"></reference>
-                <string role="key" value="_package"></string>
-                <reference key="2"></reference>
-                <string role="key" value="_storageName"></string>
-                <string value=" guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual - imprimible.pdf"></string>
-                <string role="key" value="_userName"></string>
-                <string value="c:\\users\\equipo~1\\appdata\\local\\temp\\tmpgsmtkx\\ guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual - imprimible.pdf"></string>
-                <string role="key" value="checksum"></string>
-                <string value="e70d9a9cbbabab1d7b77d9c4bfbd07f1"></string>
-                <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="warningMsg"></string>
-                <string value=""></string>
-               </dictionary>
-              </instance>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.extendedfieldengine.FileField" reference="29">
-             <dictionary>
-              <string role="key" value="_id"></string>
               <int value="238"></int>
               <string role="key" value="_idevice"></string>
               <reference key="27"></reference>
@@ -1754,13 +1696,71 @@
                 <string role="key" value="_id"></string>
                 <int value="239"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="29"></reference>
+                <reference key="28"></reference>
                 <string role="key" value="_instruc"></string>
                 <string value=""></string>
                 <string role="key" value="_name"></string>
                 <string value="Description"></string>
                 <string role="key" value="content"></string>
                 <unicode value="Plantilla de resumen guiado de itinerarios académicos y profesionales en el entorno sociolaboral actual - editable"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+               </dictionary>
+              </instance>
+              <string role="key" value="fileInstruc"></string>
+              <unicode value="Subir un fichero. Elimine los caracteres especiales del nombre del fichero y la ruta del archivo."></unicode>
+              <string role="key" value="fileResource"></string>
+              <instance class="exe.engine.resource.Resource" reference="31">
+               <dictionary>
+                <string role="key" value="_idevice"></string>
+                <reference key="27"></reference>
+                <string role="key" value="_package"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_storageName"></string>
+                <string value="Resumen guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual.docx"></string>
+                <string role="key" value="_userName"></string>
+                <string value="c:\\users\\equipo~1\\appdata\\local\\temp\\tmpgsmtkx\\Resumen guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual.docx"></string>
+                <string role="key" value="checksum"></string>
+                <string value="5cb2c74e515036abe18f06bee8dceb80"></string>
+                <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="warningMsg"></string>
+                <string value=""></string>
+               </dictionary>
+              </instance>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.extendedfieldengine.FileField" reference="29">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <int value="263"></int>
+              <string role="key" value="_idevice"></string>
+              <reference key="27"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value="File Field Help"></string>
+              <string role="key" value="_name"></string>
+              <string value="File Field"></string>
+              <string role="key" value="alwaysNameTo"></string>
+              <none></none>
+              <string role="key" value="exe.engine.extendedfieldengine.FileField.persistenceVersion"></string>
+              <int value="5"></int>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="fileDescription"></string>
+              <instance class="exe.engine.field.TextField">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="264"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="29"></reference>
+                <string role="key" value="_instruc"></string>
+                <string value=""></string>
+                <string role="key" value="_name"></string>
+                <string value="Description"></string>
+                <string role="key" value="content"></string>
+                <unicode value="Plantilla de resumen guiado de Itinerarios académicos y profesionales en el entorno sociolaboral actual - imprimible"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
                </dictionary>
@@ -1775,11 +1775,11 @@
                 <string role="key" value="_package"></string>
                 <reference key="2"></reference>
                 <string role="key" value="_storageName"></string>
-                <string value="Resumen guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual.docx"></string>
+                <string value="Itinerarios academicos y profesionales en el entorno sociolaboral - imprimible.pdf"></string>
                 <string role="key" value="_userName"></string>
-                <string value="c:\\users\\equipo~1\\appdata\\local\\temp\\tmpgsmtkx\\Resumen guiado de Itinerarios academicos y profesionales en el entorno sociolaboral actual.docx"></string>
+                <string value="C:\\Users\\Equipo personal\\Downloads\\Itinerarios academicos y profesionales en el entorno sociolaboral - imprimible.pdf"></string>
                 <string role="key" value="checksum"></string>
-                <string value="5cb2c74e515036abe18f06bee8dceb80"></string>
+                <string value="e70d9a9cbbabab1d7b77d9c4bfbd07f1"></string>
                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                 <int value="2"></int>
                 <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -3334,7 +3334,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="53"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -4664,7 +4664,7 @@
    </list>
    <string role="key" value="5cb2c74e515036abe18f06bee8dceb80"></string>
    <list>
-    <reference key="32"></reference>
+    <reference key="31"></reference>
    </list>
    <string role="key" value="5f9c6ee44b32e4e39c84313a9af2603b"></string>
    <list>
@@ -4700,7 +4700,7 @@
    </list>
    <string role="key" value="e70d9a9cbbabab1d7b77d9c4bfbd07f1"></string>
    <list>
-    <reference key="31"></reference>
+    <reference key="32"></reference>
    </list>
    <string role="key" value="ea91430099b8573f5aefe72d3e91b5ea"></string>
    <list>
